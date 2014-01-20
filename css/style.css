@@ -1,0 +1,32 @@
+body{width:100%;max-width:1800px;margin:0px;padding:0px;background:url(../images/bg_gradient-teal.jpg) no-repeat;background-size: cover;font-family:'Sans-Serif';}
+#page_wrapper{width:100%;}
+#page_wrapper h1{text-align:center;color:#fff;}
+#bar_wrapper{width:90%;max-width:1300px;margin:10px auto;padding-top:10px;}
+
+/*Progress Bars*/
+#bar_wrapper ul{list-style:none;background:#fff;padding-top:25px;padding-bottom:25px;-webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;box-shadow: 4px 4px 10px #363636;-webkit-box-shadow: 4px 4px 10px #363636;-moz-box-shadow: 4px 4px 10px #363636;}
+#bar_wrapper ul li{position:relative;overflow:hidden;height:40px;width:90%;border:1px solid #acacac;margin:20px 0;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#bar_wrapper ul li.error span{background: red;}
+#bar_wrapper ul li span{background:#18c2ce;width:0;height:40px;display: block;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;line-height:40px;text-align:left;}
+#bar_wrapper ul li p{color:#636363;line-height:40px;position: absolute;top: 0px;left: 0px;z-index: 99999;width: 100%;line-height: 40px;margin: 0px;text-align:center;}
+
+
+/*Controls*/
+#controls_wrapper{background:#ffdd09;padding:20px 2% 5px 2%;width:96%;margin-top:50px;text-align:center;}
+#controls_wrapper span{margin:0 10px;}
+#controls_wrapper select {padding:10px 4px 10px 10px ;margin: 0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;-moz-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;background: #f8f8f8;color:#888;border:none;outline:none;display: inline-block;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;}
+#controls_wrapper label {position:relative}
+
+
+#controls_wrapper a{margin-right:5px;font:11px 'Sans-Serif', monospace;padding:10px;line-height:16px;margin-bottom:20px;color:#aaa;background-color:#f8f8f8;border-bottom:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;-moz-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;outline:none;display: inline-block;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;text-decoration:none;
+                    -webkit-transition: background-color 500ms ease-out .1s;    -moz-transition: background-color 500ms ease-out .1s;    -o-transition: background-color 500ms ease-out .1s;    transition: background-color 500ms ease-out .1s;}
+#controls_wrapper a:hover{background-color:#E2DFDF;}
+
+/*Copyright*/
+small{width:100%;text-align:center;color:#fff;margin:20px 0 ;display:inline-block;}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #controls_wrapper select {padding-right:18px}
+}
+
